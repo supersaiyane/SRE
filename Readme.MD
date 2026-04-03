@@ -32,6 +32,10 @@
 | 11 | [On-Call Best Practices](SRE/11_oncall_best_practices.md) | Rotations, escalations, alert hygiene, burnout prevention |
 | 12 | [Capacity Planning](SRE/12_capacity_planning.md) | Forecasting, load testing, scaling strategies |
 | 13 | [Postmortem Template](SRE/13_postmortem_template.md) | Blameless postmortem structure with worked example |
+| 14 | [Kubernetes Troubleshooting](SRE/14_kubernetes_troubleshooting.md) | Decision trees for CrashLoopBackOff, OOMKilled, Pending, networking issues |
+| 15 | [PromQL Cookbook](SRE/15_promql_cookbook.md) | Copy-paste-ready queries for golden signals, SLOs, K8s health, databases |
+| 16 | [Reliability Patterns](SRE/16_reliability_patterns.md) | Circuit breakers, retries, bulkheads, backpressure, rate limiting, fallbacks |
+| 17 | [SRE Interview Mega Guide](SRE/17_sre_interview_guide.md) | 17 scenario-based questions with frameworks, scoring rubrics, STAR examples |
 
 ---
 
@@ -151,12 +155,14 @@
 Week 1-2:  SRE Fundamentals (files 1-6) + YAML Templates
 Week 3:    Golden Signals + Grafana + Error Budgets (files 7-9)
 Week 4:    Toil + On-Call + Capacity Planning (files 10-12)
-Week 5:    Chaos Engineering (all 4 files) + run chaos_demo_app
-Week 6:    Service Mesh (all files) + run istio_autoheal_demo
-Week 7:    GitOps + Progressive Delivery + run argo_rollouts_demo
-Week 8:    Multi-Region + DR Runbook + Observability
-Week 9:    RUM + run rum_demo_app
-Week 10:   Full SRE demo (Complete_SRE_DEMO) + mock interviews
+Week 5:    Postmortem Template + Kubernetes Troubleshooting (files 13-14)
+Week 6:    PromQL Cookbook + Reliability Patterns (files 15-16)
+Week 7:    Chaos Engineering (all 4 files) + run chaos_demo_app
+Week 8:    Service Mesh (all files) + run istio_autoheal_demo
+Week 9:    GitOps + Progressive Delivery + run argo_rollouts_demo
+Week 10:   Multi-Region + DR Runbook + Observability
+Week 11:   RUM + run rum_demo_app
+Week 12:   Full SRE demo (Complete_SRE_DEMO) + Interview Mega Guide (file 17)
 ```
 
 ---
